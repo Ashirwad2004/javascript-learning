@@ -25,6 +25,7 @@
 // console.log(evenNumbers);
 
 //find string in array
+
 let arr =[23,45 ,"ashi", true, null, "javascript", 6, "python"];
 let stringArr = [];
 
@@ -43,7 +44,16 @@ for(let i=0; i<numArr.length; i++){
     sum += numArr[i];
 }
 console.log(sum);
+
+
 //print arry in desending order
+
 let arr1 = [5, 2, 9, 1, 5, 6];
 arr1.sort(function(a, b){return b-a});
 console.log(arr1);
+
+
+//reverse an array
+let arr2 = [1, 2, 3, 4, 5];
+arr2.reverse();
+console.log(arr2);
