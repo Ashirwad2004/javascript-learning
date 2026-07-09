@@ -61,7 +61,6 @@ findLargest(5, 10, 3);
 findLargest(15, 7, 20);
 
 //Write a function named calculateGrade that takes a student's marks and returns a grade:
-
 function calculateGrade(marks) {
     if (marks >= 90) {
         return "A";
@@ -75,7 +74,6 @@ function calculateGrade(marks) {
         return "F";
     }
 }
-
 console.log(calculateGrade(95));
 console.log(calculateGrade(85));
 console.log(calculateGrade(75));
