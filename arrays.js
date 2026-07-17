@@ -56,3 +56,25 @@ console.log(arr1);
 let arr2 = [1, 2, 3, 4, 5];
 arr2.reverse();
 console.log(arr2);
+
+
+
+//reverse an array
+
+let arr = [10,15,17,18,43]
+let reverse =[];
+for (let i = arr.length - 1; i>0; i--){
+    reverse.push(arr[i]);
+}
+console.log(reverse);
+
+//built in methhof
+let arr = [45,64,545,545,5454];
+arr.reverse();
+console.log(arr);
+
+//count even number
+let arr3 = [454, 545, 595, 5454 ,5454, 54543, ]
+let count = arr3.filter(num =>num%2 ===0).length
+console.log(count);
+
